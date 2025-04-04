@@ -30,21 +30,21 @@ This Python project extracts the earliest message for a given phone number from 
 
 ## Usage
 
-1. Open the `script.py` file and update the target phone number if needed (the default is `+123 456 7890`):
+1. Open the `main.py` file and update the target phone number if needed (the default is `+123 456 7890`):
    ```python
    display_first_message("+123 456 7890")
    ```
 
 2. Run the script:
    ```bash
-   python script.py
+   python main.py
    ```
 
 3. The script will display the first message details in a formatted panel if found, or it will print an error message if no messages are found.
 
 ## Files
 
-- **`script.py`**: The main Python script that extracts and displays the first message.
+- **`main.py`**: The main Python script that extracts and displays the first message.
 - **`README.md`**: This documentation file.
 - **`requirements.txt`**: Lists the project dependencies.
 
